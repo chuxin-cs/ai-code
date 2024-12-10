@@ -1,7 +1,0 @@
-spring:
-  application:
-    # 项目名称
-    name: demo-todo-list
-    # 指向的环境为开发环境
-  profiles:
-    active: dev
