@@ -1,0 +1,5 @@
+packages:
+  # packages 目录下一级的包都是子包（受控范围）
+  - 'packages/*'
+  # 如果是两个 ** 则 common 下面嵌套再深的包都是子包
+  - 'common/**'
