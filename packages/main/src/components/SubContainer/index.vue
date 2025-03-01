@@ -1,5 +1,8 @@
 <template>
-  <div id="sub-container"></div>
+  <div>
+    <div id="sub-vue-container"></div>
+    <div id="sub-react-container"></div>
+  </div>
 </template>
 
 <script>

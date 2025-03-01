@@ -22,6 +22,12 @@ const routes = [
                 name: 'app-vue3',
                 component: () => import('@/components/SubContainer/index.vue')
             },
+            {
+                // history模式需要通配所有路由，详见vue-router文档
+                path: '/app/app-react/:pathMatch(.*)*',
+                name: 'app-react',
+                component: () => import('@/components/SubContainer/index.vue')
+            },
         ]
     }
 ]

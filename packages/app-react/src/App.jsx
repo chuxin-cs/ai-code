@@ -1,6 +1,6 @@
 function App() {
     return (<>
-        app-react
+        <div>app-react</div>
     </>)
 }
 
