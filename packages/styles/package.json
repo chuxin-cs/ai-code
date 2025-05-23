@@ -1,0 +1,25 @@
+{
+  "name": "@chuxin/styles",
+  "version": "1.0.0",
+  "homepage": "https://github.com/chuxin-cs/react-admin",
+  "bugs": "https://github.com/chuxin-cs/react-admin/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chuxin-cs/react-admin.git",
+    "directory": "packages/styles"
+  },
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "default": "./src/index.ts"
+    },
+    "./antd": {
+      "default": "./src/antd/index.css"
+    },
+    "./global": {
+      "default": "./src/global/index.scss"
+    }
+  }
+}
