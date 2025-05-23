@@ -7,7 +7,6 @@ import { CircleLoading } from "@/components/loading";
 import type { AppRouteObject } from "#/router";
 
 const HomePage = lazy(() => import("@/pages/dashboard/workbench"));
-const Analysis = lazy(() => import("@/pages/dashboard/analysis"));
 
 const dashboard: AppRouteObject = {
 	order: 1,
@@ -19,9 +18,7 @@ const dashboard: AppRouteObject = {
 	),
 	meta: {
 		label: "sys.menu.dashboard",
-		icon: (
-			<SvgIcon icon="ic-analysis" className="ant-menu-item-icon" size="24" />
-		),
+		icon: <SvgIcon icon="ic-analysis" className="ant-menu-item-icon" size="24" />,
 		key: "/dashboard",
 	},
 	children: [
@@ -33,11 +30,6 @@ const dashboard: AppRouteObject = {
 			path: "workbench",
 			element: <HomePage />,
 			meta: { label: "sys.menu.workbench", key: "/dashboard/workbench" },
-		},
-		{
-			path: "analysis",
-			element: <Analysis />,
-			meta: { label: "sys.menu.analysis", key: "/dashboard/analysis" },
 		},
 	],
 };

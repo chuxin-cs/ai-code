@@ -21,16 +21,6 @@ import "./theme/theme.css";
 import App from "./App";
 import ProgressBar from "./components/progress-bar";
 
-const charAt = `
-    ███████╗██╗      █████╗ ███████╗██╗  ██╗ 
-    ██╔════╝██║     ██╔══██╗██╔════╝██║  ██║
-    ███████╗██║     ███████║███████╗███████║
-    ╚════██║██║     ██╔══██║╚════██║██╔══██║
-    ███████║███████╗██║  ██║███████║██║  ██║
-    ╚══════╝╚══════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝
-  `;
-console.info(`%c${charAt}`, "color: #5BE49B");
-
 const root = ReactDOM.createRoot(document.getElementById("root") as HTMLElement);
 
 root.render(
