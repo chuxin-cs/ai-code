@@ -1,15 +1,9 @@
 {
-	"name": "slash-admin",
+	"name": "react-antd-admin",
 	"private": true,
 	"version": "0.0.0",
 	"type": "module",
-	"homepage": "https://github.com/d3george/slash-admin",
-	"scripts": {
-		"dev": "vite",
-		"build": "tsc && vite build",
-		"preview": "vite preview",
-		"preinstall": "lefthook install"
-	},
+	"homepage": "https://github.com/chuxin-cs/react-antd-admin",
 	"dependencies": {
 		"@ant-design/cssinjs": "^1.22.0",
 		"@ant-design/icons": "^5.5.1",
@@ -105,17 +99,5 @@
 		"vite-plugin-svg-icons": "^2.0.1",
 		"vite-plugin-vue-devtools": "^7.7.5",
 		"vite-tsconfig-paths": "^5.1.2"
-	},
-	"engines": {
-		"node": "20.*"
-	},
-	"packageManager": "pnpm@9.1.0",
-	"msw": {
-		"workerDirectory": "public"
-	},
-	"commitlint": {
-		"extends": [
-			"@commitlint/config-conventional"
-		]
 	}
 }
