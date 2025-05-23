@@ -1,8 +1,8 @@
 {
 	"name": "react-antd-admin",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"type": "module",
-	"homepage": "https://github.com/chuxin-cs/react-antd-admin",
+	"homepage": "https://github.com/chuxin-cs/react-admin/tree/master/packages/react-antd-admin",
 	"scripts": {
 		"dev": "vite",
 		"build": "tsc && vite build",
