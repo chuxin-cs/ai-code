@@ -32,7 +32,7 @@
 ### Get the Project Code
 
 ```bash
-git clone https://github.com/d3george/slash-admin.git
+git clone https://github.com/chuxin-cs/react-antd-admin.git
 ```
 
 ### Install Dependencies

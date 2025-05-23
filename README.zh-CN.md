@@ -33,7 +33,7 @@
 ### 获取项目代码
 
 ```bash
-git clone https://github.com/d3george/slash-admin.git
+git clone https://github.com/chuxin-cs/react-antd-admin.git
 ```
 
 ### 安装依赖
