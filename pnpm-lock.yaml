@@ -285,6 +285,8 @@ importers:
 
   apps/react-antd-admin: {}
 
+  apps/react-js-antd-admin: {}
+
   packages/styles: {}
 
   packages/types: {}
