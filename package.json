@@ -1,9 +1,15 @@
 {
-	"name": "react-antd-admin",
+	"name": "react-admin",
 	"private": true,
 	"version": "0.0.0",
 	"type": "module",
-	"homepage": "https://github.com/chuxin-cs/react-antd-admin",
+	"homepage": "https://github.com/chuxin-cs/react-admin",
+	"repository": {
+    "type": "git",
+    "url": "git+https://github.com/chuxin-cs/react-admin.git"
+  },
+	"author": "chuxin",
+	"license": "MIT",
 	"dependencies": {
 		"@ant-design/cssinjs": "^1.22.0",
 		"@ant-design/icons": "^5.5.1",
