@@ -1,0 +1,9 @@
+/* font */
+@import "@fontsource-variable/open-sans";
+@import "@fontsource-variable/inter";
+
+/* tailwind */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
